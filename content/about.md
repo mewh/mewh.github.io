@@ -1,7 +1,6 @@
 ---
 title: "Profile"
 date: 2022-02-22T15:21:19+09:00
-draft: false
 # tags: ["first"]
 author: "Matthias Harvey"
 showToc: false
@@ -18,16 +17,14 @@ searchHidden: true
 ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
+PoweredBy: true
+
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/mewh/mewh.github.io/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
 I have a passion for mathematics, science, and software development. I *thrive* on challenging projects and my special interests include,
 - Computer graphics 
@@ -44,3 +41,10 @@ Other interests include,
 ## Education
 - Master of Design in Computer Science from Kyushu University, Japan
 - BSc Computer Science and BSc Computer Science Honours from University of Pretoria, South Africa - both with distinction
+
+---
+
+Site powered by
+
+- [Hugo](https://gohugo.io/)
+- [PaperMod](https://git.io/hugopapermod)
