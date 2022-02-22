@@ -1,6 +1,6 @@
 baseURL: http://mewh.github.io/
 languageCode: en-uk
-title: Matthias Harvey - Blog and portfolio
+title: M. E. W. Harvey - Blog and Portfolio
 theme: "PaperMod"
 paginate: 5
 
@@ -17,18 +17,19 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Matthias Harvey
-  description: "Blog and portfolio of Matthias Harvey."
-  keywords: [Blog, Portfolio, PaperMod]
+  title: M.&#8202;E.&#8202;W.&#8202;Harvey # &#8202; is the hair space symbol see https://english.stackexchange.com/a/105529
+  description: "Blog and Portfolio of Matthias Harvey."
+  keywords: [Blog, Portfolio, AI, PaperMod]
   author: Matthias Harvey
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["matthiasharvey.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
+  ShareButtons: ["twitter", "telegram"]
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -43,26 +44,26 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicon_io/favicon.ico"
+    favicon16x16: "favicon_io/favicon-16x16.png"
+    favicon32x32: "favicon_io/favicon-32x32.png"
+    apple_touch_icon: "favicon_io/apple-touch-icon.png"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "_"
+    icon: favicon_io/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "me.png"
+    title: M. E. W. Harvey
+    subtitle: "AI consultant currently living in Fukuoka, Japan"
+    imageUrl: "matthiasharvey.png"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: profile picture of Matthias Harvey
     buttons:
       - name: Posts
         url: posts
@@ -78,17 +79,17 @@ params:
     - name: twitter
       url: "https://twitter.com/"
     - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://stackoverflow.com/users/1757799/mewh"
     - name: github
       url: "https://github.com/mewh"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -96,7 +97,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/mewh/mewh.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -120,9 +121,9 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: teleth
+      name: teleth.com
+      url: https://teleth.com
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
