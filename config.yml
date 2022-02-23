@@ -22,7 +22,7 @@ params:
   keywords: [Blog, Portfolio, AI, PaperMod]
   author: Matthias Harvey
   # author: ["Me", "You"] # multiple authors
-  images: ["matthiasharvey.png"]
+  images: ["favicon_io/android-chrome-512x512.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
