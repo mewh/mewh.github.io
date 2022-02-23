@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: M. E. W. Harvey
-    subtitle: "AI consultant currently living in Fukuoka, Japan"
+    subtitle: "Currently living in Fukuoka, Japan"
     imageUrl: "matthiasharvey.png"
     imageWidth: 120
     imageHeight: 120
