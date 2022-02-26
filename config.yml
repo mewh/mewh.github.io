@@ -82,6 +82,8 @@ params:
       url: "https://github.com/mewh"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/1757799/mewh"
+    - name: researchgate
+      url: "https://www.researchgate.net/profile/Matthias-Harvey"
 
 
   # analytics:
