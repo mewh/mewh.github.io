@@ -37,7 +37,11 @@ Other interests include,
 - Languages (native English and Afrikaans, fluent daily Japanese, some French, dabbling in Greek)
 - Climbing, cycling, ice skating
 
-
+## Publications
+- Timm, N., Gruner, S., & Harvey, M. (2016). A Bounded Model Checker for Three-Valued Abstractions of Concurrent Software Systems. SBMF. [Link](https://www.researchgate.net/publication/310049313_A_Bounded_Model_Checker_for_Three-Valued_Abstractions_of_Concurrent_Software_Systems)
+    - SBMF2016 [Award](https://www.researchgate.net/publication/310806814_SBMF2016_Award_2nd-Best_Paper): 2nd-Best Paper 
+- Timm, N., Gruner, S., & Harvey, M. (2018). Constraint Reusing and k-Induction for Three-Valued Bounded Model Checking. SBMF. [Link](https://www.researchgate.net/publication/328470272_Constraint_Reusing_and_k-Induction_for_Three-Valued_Bounded_Model_Checking)
+- Harvey, M, & 高木英行 (2021). 進化計算の初期化手法の比較進化計算の初期化手法の比較. [The Japanese Society for Evolutionary Computation](http://www.jpnsec.org/symposium202101.html) - 第19回進化計算学会研究会
 ## Education
 - Master of Design in Computer Science from Kyushu University, Japan
 - BSc Computer Science and BSc Computer Science Honours from University of Pretoria, South Africa - both with distinction
