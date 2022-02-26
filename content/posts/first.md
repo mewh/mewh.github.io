@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "New Site and Blog."
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://mewh.io/posts/first/"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 disableHLJS: false
@@ -22,11 +22,11 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "hugo-logo-wide.svg" # image path/url
+    alt: "Hugo logo"
+    caption: "\"The world’s fastest framework for building websites. Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.\" - https://gohugo.io/"
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/mewh/mewh.github.io/blob/master/content"
     Text: "Suggest Changes" # edit text
@@ -50,4 +50,4 @@ Previously I've used [Jekyll](https://jekyllrb.com/), but so far I'm liking Hugo
 
 I'll see how it goes if I need to do more customising, but so far Hugo looks great.
 
-At some point I also want to look into the feasibility of using Hugo for sites for customers that want to be able to add and modify content themselves. I know there are some nice markdown editors for github, or one can use github directly, but the layperson wants something like WordPress's interface.
+At some point I also want to look into the feasibility of using Hugo for sites for clients that want to be able to add and modify content themselves. I know there are some nice markdown editors for github, or one can use github directly, but the layperson wants something like WordPress's interface.
