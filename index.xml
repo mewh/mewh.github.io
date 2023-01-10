@@ -9,17 +9,7 @@
       <link>https://mewh.io/favicon_io/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
-    <lastBuildDate>Tue, 22 Feb 2022 16:36:19 +0900</lastBuildDate><atom:link href="https://mewh.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First Post and Welcome to My Blog!</title>
-      <link>https://mewh.io/posts/first/</link>
-      <pubDate>Tue, 22 Feb 2022 16:36:19 +0900</pubDate>
-      
-      <guid>https://mewh.io/posts/first/</guid>
-      <description>New Site and Blog.</description>
-    </item>
-    
+    <language>en-uk</language><atom:link href="https://mewh.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Profile</title>
       <link>https://mewh.io/about/</link>
@@ -27,8 +17,8 @@
       
       <guid>https://mewh.io/about/</guid>
       <description>I have a passion for mathematics, science, and software development. I thrive on challenging projects and my special interests include,
- Computer graphics Game design Simulations Artificial intelligence Deep understanding of anything  Other interests include,
- Languages (native English and Afrikaans, fluent daily Japanese, some French, dabbling in Greek) Climbing, cycling, ice skating  Publications  Timm, N., Gruner, S., &amp;amp; Harvey, M. (2016). A Bounded Model Checker for Three-Valued Abstractions of Concurrent Software Systems.</description>
+Computer graphics Game design Simulations Artificial intelligence Deep understanding of anything Other interests include,
+Languages (native English and Afrikaans, fluent daily Japanese, some French, dabbling in Greek) Climbing, cycling, ice skating Publications Timm, N., Gruner, S., &amp;amp; Harvey, M. (2016). A Bounded Model Checker for Three-Valued Abstractions of Concurrent Software Systems.</description>
     </item>
     
   </channel>
