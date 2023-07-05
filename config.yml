@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: M. E. W. Harvey
-    subtitle: "Currently living in Fukuoka, Japan"
+    subtitle: "Currently living in Pretoria, South Africa"
     imageUrl: "matthiasharvey.png"
     imageWidth: 120
     imageHeight: 120
@@ -126,6 +126,10 @@ menu:
     #   name: tags
     #   url: /tags/
     #   weight: 20
+    - identifier: mindfront
+      name: mindfront.ai
+      url: https://jobs.rip
+      weight: 30
     - identifier: teleth
       name: teleth.com
       url: https://teleth.com
