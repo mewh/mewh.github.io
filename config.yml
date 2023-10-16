@@ -126,10 +126,6 @@ menu:
     #   name: tags
     #   url: /tags/
     #   weight: 20
-    - identifier: mindfront
-      name: mindfront.ai
-      url: https://jobs.rip
-      weight: 30
     - identifier: teleth
       name: teleth.com
       url: https://teleth.com
