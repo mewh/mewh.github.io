@@ -9,7 +9,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -21,7 +20,6 @@ params:
   description: "Blog and Portfolio of Matthias Harvey."
   keywords: [Blog, Portfolio, AI, PaperMod]
   author: Matthias Harvey
-  # author: ["Me", "You"] # multiple authors
   images: ["favicon_io/android-chrome-512x512.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -65,32 +63,14 @@ params:
     imageHeight: 120
     imageTitle: profile picture of Matthias Harvey
     buttons:
-      # - name: Posts
-      #   url: posts
-      # - name: Tags
-      #   url: tags
-
-  # home-info mode
-  # homeInfoParams:
-  #   Title: "Hi there \U0001F44B"
-  #   Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/mewh___"
+    - name: x
+      url: "https://x.com/mewh___"
     - name: github
       url: "https://github.com/mewh"
     - name: researchgate
       url: "https://www.researchgate.net/profile/Matthias-Harvey"
-
-
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: "XYZabc"
-  #   bing:
-  #     SiteVerificationTag: "XYZabc"
-  #   yandex:
-  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -118,24 +98,7 @@ menu:
       name: about
       url: /about/
       weight: 10
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 10
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 20
     - identifier: teleth
       name: teleth.com
       url: https://teleth.com
       weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai

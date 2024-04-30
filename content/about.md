@@ -1,13 +1,11 @@
 ---
 title: "Profile"
 date: 2022-02-22T15:21:19+09:00
-# tags: ["first"]
 author: "Matthias Harvey"
 showToc: false
 TocOpen: false
 hidemeta: true
 comments: false
-# description: "About Matthias Harvey"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: true
