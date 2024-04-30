@@ -9,7 +9,8 @@
       <link>https://mewh.io/favicon_io/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="https://mewh.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 22 Feb 2022 15:21:19 +0900</lastBuildDate><atom:link href="https://mewh.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Profile</title>
       <link>https://mewh.io/about/</link>
