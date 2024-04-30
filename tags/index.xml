@@ -5,10 +5,12 @@
     <link>https://mewh.io/tags/</link>
     <description>Recent content in Tags on M. E. W. Harvey - Blog and Portfolio</description>
     <image>
+      <title>M. E. W. Harvey - Blog and Portfolio</title>
       <url>https://mewh.io/favicon_io/android-chrome-512x512.png</url>
       <link>https://mewh.io/favicon_io/android-chrome-512x512.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="https://mewh.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.125.4</generator>
+    <language>en-uk</language>
+    <atom:link href="https://mewh.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
