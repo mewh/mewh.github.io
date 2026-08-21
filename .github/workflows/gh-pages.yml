@@ -22,7 +22,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          # Keep the archived 2024 PaperMod theme on its compatible Hugo generation.
+          hugo-version: '0.125.7'
           # extended: true
 
       - name: Build
