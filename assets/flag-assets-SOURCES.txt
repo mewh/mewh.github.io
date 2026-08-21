@@ -1,0 +1,11 @@
+Japan flag SVG source:
+https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg
+
+South Africa flag SVG source:
+https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg
+
+Both files preserve the official 3:2 national-flag proportions. The South
+African construction and colour families were checked against Schedule 1 of
+the South African Constitution and the South African Government national-flag
+guidance. The Japan construction matches the statutory white field and centered
+crimson disc dimensions.
