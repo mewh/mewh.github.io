@@ -1,0 +1,29 @@
+Client logo sources
+Retrieved: 2026-08-26
+
+Mitsubishi Power Africa
+Company page: https://power.mhi.com/regions/afr/company
+Asset: https://power.mhi.com/regions/afr/sites/g/files/jwhtju1131/files/2020-12/logo_en.svg
+Local: client-mitsubishi-power-africa.svg
+
+METC Engineering
+Company page: https://metcengineering.com/
+Asset: https://metcengineering.com/wp-content/uploads/2024/10/METC-Engineering-Transparent-Logo.png
+Local: client-metc-engineering.png
+
+Working on Fire
+Company page: https://workingonfire.org/
+Asset: https://workingonfire.org/wp-content/uploads/2022/08/WOF-LOGO.png
+Local: client-working-on-fire.png
+
+Stefanutti Stocks
+Company page: https://stefanuttistocks.com/
+Asset: https://stefanuttistocks.com/wp-content/uploads/Stefanutti-Stokcs-Logo.svg
+Local: client-stefanutti-stocks.svg
+
+African Rainbow Minerals
+Company page: https://arm.co.za/
+Asset provenance: existing public-marketing logo asset previously sourced for the Docwize client brochure; the current corporate site did not expose a stable direct logo URL during retrieval.
+Local: client-african-rainbow-minerals.png
+
+All marks remain the property of their respective owners and are used only to identify the named organizations.

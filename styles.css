@@ -237,6 +237,75 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
 .experience-list h3 { font-size: clamp(1.35rem, 2.4vw, 2rem); margin: 0; }
 .experience-list p { color: var(--muted); margin: 0; max-width: 38rem; }
 
+.work-section { background: var(--white); }
+
+.client-stories { border-top: 1px solid var(--ink); }
+
+.client-story {
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: clamp(2rem, 6vw, 6rem);
+  grid-template-columns: minmax(180px, .42fr) minmax(0, 1.58fr);
+  padding: clamp(2.8rem, 6vw, 5rem) 0;
+}
+
+.client-story > * { min-width: 0; }
+
+.client-identity {
+  align-content: space-between;
+  display: grid;
+  gap: 2rem;
+}
+
+.client-logo-link {
+  align-items: center;
+  display: flex;
+  min-height: 96px;
+  padding: .75rem 0;
+  text-decoration: none;
+  width: min(100%, 220px);
+}
+
+.client-logo-link.client-logo-dark {
+  background: var(--navy);
+  padding: 1.15rem;
+}
+
+.client-logo {
+  height: auto;
+  max-height: 82px;
+  object-fit: contain;
+  object-position: left center;
+  width: auto;
+}
+
+.logo-mitsubishi,
+.logo-arm { max-width: 220px; }
+.logo-metc { max-height: 68px; max-width: 180px; }
+.logo-wof { max-height: 98px; }
+.logo-stefanutti { max-height: 72px; }
+
+.client-number {
+  color: var(--orange);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.client-copy h3 {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif;
+  font-size: clamp(1.8rem, 3.6vw, 3.2rem);
+  font-weight: 600;
+  letter-spacing: -.035em;
+  line-height: 1.12;
+  margin: .6rem 0 0;
+}
+
+.client-copy h3 a { text-decoration: none; }
+.client-copy h3 a:hover { color: var(--orange); }
+.client-copy h3 span { color: var(--orange); font-family: inherit; font-size: .55em; }
+.client-copy > p:last-child { color: #3d3a35; margin: 1.5rem 0 0; max-width: 58rem; }
+
 .principles {
   background: var(--navy);
   color: var(--white);
@@ -285,6 +354,9 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
 @media (max-width: 700px) {
   .experience-list article { grid-template-columns: 40px 1fr; }
   .experience-list p { grid-column: 2; }
+  .client-story { gap: 1.5rem; grid-template-columns: 1fr; }
+  .client-identity { align-items: end; grid-template-columns: 1fr auto; }
+  .client-logo-link { min-height: 76px; }
 }
 
 @media (max-width: 640px) {
