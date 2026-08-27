@@ -134,7 +134,10 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
 .leader-portrait img { height: 100%; object-fit: cover; object-position: center top; width: 100%; }
 .leader-portrait figcaption { align-items: start; border-bottom: 1px solid var(--line); display: grid; gap: 1rem; grid-template-columns: max-content minmax(0, 1fr); min-height: 7.5rem; padding: 1rem 0 1.2rem; }
 .leader-portrait strong { font-size: clamp(1.2rem, 2vw, 1.8rem); white-space: nowrap; }
-.leader-portrait span { color: var(--muted); font-size: .82rem; text-align: right; }
+.leader-portrait figcaption > span { color: var(--muted); font-size: .82rem; text-align: right; }
+.caption-name { display: flex; flex-direction: column; gap: .12rem; }
+.caption-name-plain::before { content: ""; display: block; height: .576em; }
+.leader-portrait .caption-latin { color: inherit; font: inherit; text-align: left; }
 .name-block { display: flex; flex-direction: column; gap: .12rem; }
 .name-reading { color: var(--orange); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; font-size: .48em; font-weight: 800; letter-spacing: .08em; line-height: 1.2; }
 
@@ -367,7 +370,7 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
   .portrait-pair { grid-template-columns: 1fr; }
   .hero-flag figcaption { align-items: flex-start; flex-direction: column; gap: .05rem; }
   .leader-portrait figcaption { gap: .15rem; grid-template-columns: 1fr; min-height: 0; }
-  .leader-portrait span { text-align: left; }
+  .leader-portrait figcaption > span { text-align: left; }
   .leadership-bios,
   .team-grid,
   .contact-links { grid-template-columns: 1fr; }
