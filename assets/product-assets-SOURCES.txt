@@ -1,0 +1,15 @@
+Downloaded from the public Organic Mobility WordPress theme on 2026-08-27.
+
+product-docwize-logo.png
+Source: https://organic-mobility.com/wp-content/themes/ml_organic_mobility/assets/images/docwize_dark_logo.png
+SHA-256: 31f8dc81b7f24e9b8f3d21532db4c1b88eb042b7ca2d231cf3856cb5b5a95ba9
+
+product-oliver-logo.svg
+Source: https://organic-mobility.com/wp-content/themes/ml_organic_mobility/assets/images/Oliver_logo.svg
+SHA-256: 90aaed63189bd1112998865e1ec2d6bc436861545f986cd4fee5df3df8e27440
+
+product-oliver-interface.png
+Source: https://organic-mobility.com/wp-content/themes/ml_organic_mobility/assets/images/oliver-full.png
+SHA-256: 383a1dfdc21e3286aa3fd7804a669695507f3a5728fd54205163691f9752a7b3
+
+All three files are preserved without AI modification. They are hosted locally in the artifact rather than hotlinked.
