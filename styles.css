@@ -132,8 +132,8 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
 .leader-portrait { margin: 0; }
 .portrait-frame { aspect-ratio: 4 / 5; overflow: hidden; }
 .leader-portrait img { height: 100%; object-fit: cover; object-position: center top; width: 100%; }
-.leader-portrait figcaption { align-items: baseline; border-bottom: 1px solid var(--line); display: flex; gap: 1rem; justify-content: space-between; padding: 1rem 0 1.2rem; }
-.leader-portrait strong { font-size: clamp(1.2rem, 2vw, 1.8rem); }
+.leader-portrait figcaption { align-items: start; border-bottom: 1px solid var(--line); display: grid; gap: 1rem; grid-template-columns: max-content minmax(0, 1fr); min-height: 7.5rem; padding: 1rem 0 1.2rem; }
+.leader-portrait strong { font-size: clamp(1.2rem, 2vw, 1.8rem); white-space: nowrap; }
 .leader-portrait span { color: var(--muted); font-size: .82rem; text-align: right; }
 
 .section {
@@ -218,7 +218,7 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
 
 .team-person { border-bottom: 1px solid var(--line); padding-bottom: 2rem; }
 .team-person figure { aspect-ratio: 4 / 5; background: var(--paper-deep); margin: 0 0 1.5rem; overflow: hidden; }
-.team-person img { filter: grayscale(1) contrast(1.03); height: 100%; object-fit: cover; object-position: center top; width: 100%; }
+.team-person img { height: 100%; object-fit: cover; object-position: center top; width: 100%; }
 .team-person h3 { font-size: clamp(1.45rem, 2.3vw, 2rem); }
 .team-person > p:last-child { color: var(--muted); margin: 1rem 0 0; }
 
@@ -364,7 +364,7 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
   .name-lockup i { display: none; }
   .portrait-pair { grid-template-columns: 1fr; }
   .hero-flag figcaption { align-items: flex-start; flex-direction: column; gap: .05rem; }
-  .leader-portrait figcaption { align-items: flex-start; flex-direction: column; gap: .15rem; }
+  .leader-portrait figcaption { gap: .15rem; grid-template-columns: 1fr; min-height: 0; }
   .leader-portrait span { text-align: left; }
   .leadership-bios,
   .team-grid,
