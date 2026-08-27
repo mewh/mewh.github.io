@@ -128,7 +128,7 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
   padding-top: 1.2rem;
 }
 
-.portrait-pair { display: grid; gap: clamp(1rem, 2.5vw, 2rem); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.portrait-pair { display: grid; gap: clamp(1rem, 2.5vw, 2rem); grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 960px; }
 .leader-portrait { margin: 0; }
 .portrait-frame { aspect-ratio: 4 / 5; overflow: hidden; }
 .leader-portrait img { height: 100%; object-fit: cover; object-position: center top; width: 100%; }
