@@ -1,3 +1,3 @@
-# Leadership and team page — public artifact
+# Bilingual company homepage
 
-Open `index.html` for Japanese and `en/index.html` for English. Both routes include the same five selected client stories, share `styles.css`, use no JavaScript or remote fonts, and are enabled for indexing.
+Open `index.html` for Japanese and `en/index.html` for English. Both routes share `styles.css` and use no JavaScript or remote fonts.
