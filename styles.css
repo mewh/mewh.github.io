@@ -414,6 +414,12 @@ html[lang="ja"] .hero-platform-copy h2 { font-size: clamp(2rem, 3vw, 3.35rem); }
   margin: .6rem 0 0;
 }
 
+.client-copy h3.client-title-long { font-size: clamp(1.65rem, 3.45vw, 3.1rem); }
+
+@media (min-width: 701px) {
+  .client-title-long a { white-space: nowrap; }
+}
+
 .client-copy h3 a { text-decoration: none; }
 .client-copy h3 a:hover { color: var(--orange); }
 .client-copy h3 span { color: var(--orange); font-family: inherit; font-size: .55em; }
