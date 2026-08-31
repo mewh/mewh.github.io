@@ -274,6 +274,7 @@ html[lang="ja"] .hero-platform-copy h2 { font-size: clamp(2rem, 3vw, 3.35rem); }
 .product-platform-brand p { border-top: 1px solid var(--line); color: #3d3a35; font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif; font-size: clamp(1.15rem, 1.8vw, 1.5rem); font-weight: 600; letter-spacing: -.025em; line-height: 1.35; margin: 0; padding-top: 1rem; }
 .product-brand-line,
 .copy-line { display: block; }
+.product-brand-line { white-space: nowrap; }
 
 .product-interface { margin: 0; min-width: 0; }
 .product-interface img { background: var(--white); border: 1px solid var(--line); height: auto; padding: clamp(.65rem, 1.5vw, 1.1rem); width: 100%; }
