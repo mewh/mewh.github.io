@@ -151,6 +151,7 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
   line-height: 1.12;
   margin: .7rem 0 0;
 }
+html[lang="ja"] .hero-platform-copy h2 { font-size: clamp(2rem, 3vw, 3.35rem); }
 .hero-platform-copy > p:last-child { color: #3d3a35; margin: 1.2rem 0 0; max-width: 48rem; }
 .hero-platform-link { align-items: center; border: 1px solid var(--ink); display: flex; font-size: .78rem; font-weight: 800; gap: 1.5rem; justify-content: space-between; margin-top: .35rem; padding: .9rem 1rem; text-decoration: none; }
 .hero-platform-link:hover { background: var(--ink); color: var(--white); }
@@ -263,7 +264,7 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
   border-top: 1px solid var(--ink);
   display: grid;
   gap: clamp(2rem, 6vw, 6rem);
-  grid-template-columns: minmax(190px, .42fr) minmax(0, 1.58fr);
+  grid-template-columns: minmax(250px, .48fr) minmax(0, 1.52fr);
   padding-top: clamp(2rem, 4vw, 3rem);
 }
 
@@ -271,6 +272,8 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
 .product-platform-brand figure { margin: 0; width: min(100%, 235px); }
 .product-platform-brand img { height: auto; width: 100%; }
 .product-platform-brand p { border-top: 1px solid var(--line); color: #3d3a35; font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif; font-size: clamp(1.15rem, 1.8vw, 1.5rem); font-weight: 600; letter-spacing: -.025em; line-height: 1.35; margin: 0; padding-top: 1rem; }
+.product-brand-line,
+.copy-line { display: block; }
 
 .product-interface { margin: 0; min-width: 0; }
 .product-interface img { background: var(--white); border: 1px solid var(--line); height: auto; padding: clamp(.65rem, 1.5vw, 1.1rem); width: 100%; }
@@ -326,6 +329,12 @@ h1, h2, h3, .eyebrow, .section-label, .role, .name-lockup, .language-switch { ov
 .product-cta span { color: var(--orange); }
 
 .compact-heading { margin-bottom: clamp(2.5rem, 5vw, 4.5rem); }
+
+@media (min-width: 921px) {
+  .desktop-line { display: block; }
+  .jp-platform-title,
+  .experience-title-jp .no-break { white-space: nowrap; }
+}
 
 .experience-list { border-top: 1px solid var(--ink); }
 .experience-list article {
